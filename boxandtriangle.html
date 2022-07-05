@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{display: flex;}
+        .con > div{width:200px;height: 400px; border: 2px solid black; position: relative;}
+        .con > div:nth-child(odd){background: green;}
+        .con > div:nth-child(even){background: yellow;}
+        .con > div::after{content: '';position: absolute; top: 50%; right: 0; border: 20px solid;
+    border-color: transparent white transparent transparent ;}
+    .con > div::before{content: '';position: absolute; top: 50%; left: 0; border: 20px solid;
+    border-color:   transparent transparent transparent white ;}
+    .con > div:last-child::after{border: none;}
+    .con > div:first-child::before{border: none;}
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

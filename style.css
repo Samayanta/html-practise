@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+.page
+{
+   width: 2400px;
+   margin: auto;
+}
+.container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+nav{
+    margin-left: -500px;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    color: black;
+}
+nav ul a li
+{
+    padding: 100px 100px;
+    font-size: 40px;
+    display: inline-flex;
+    align-content: space-around;
+}
+.svgs a i
+{
+    padding: 50px 15px;
+    font-size: 50px;
+    color: black;
+    margin: auto;
+}
+.bg
+{
+    padding: 0px;
+    height: 1000px;
+    background: url(http://www.nbrmag.com/wp-content/uploads/2021/04/coffee.jpg);
+    background-size: 100%;
+}
+ section .bg h1
+{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    display: none;
+
+}
+section .bg p
+{
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    display: none;
+}
+.km
+{
+    width: 100px;
+}
+.km .a
+{   
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+    box-sizing: border-box;
+    display: none;
+    background:black;
+}
+.bg:hover h1
+{
+    display: block;
+}
+.bg:hover p
+{
+    display: block;
+}
+.bg:hover a
+{
+    display: block;
+}
+
+.p1
+{
+    background: url(http://www.nbrmag.com/wp-content/uploads/2019/07/66794544_438160313705310_1532090309943492608_n.jpg);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+}
+.p2
+{
+    background: url(http://www.nbrmag.com/wp-content/uploads/2019/07/66794766_479797842785463_2974240341101641728_n.jpg);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+}
+.p3
+{
+    background: url(http://www.nbrmag.com/wp-content/uploads/2019/07/66819279_708586446230910_46058267209629696_n.jpg);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+}
+.p4
+{
+    background: url(http://www.nbrmag.com/wp-content/uploads/2019/07/66825562_473981770095783_6234693175345152000_n.jpg);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+}
+.photos
+{
+    display: flex;
+justify-content: space-around;
+margin: 10px;
+}
+.photos h5{
+    font-size: 60px;
+    color: white;
+    display: none;
+}
+.photos p
+{
+    font-size: 25px;
+    color: white;
+    display: none;
+    text-align: justify;
+}
+.photos:hover h5{
+    display: block;
+}
+.p1:hover p{
+    display: block;
+}
+footer
+{
+    background: grey; 
+} 
+
+footer p{
+    text-align: center;
+    font-size: 40px;
+    background: grey;
+}
